@@ -1,2 +1,2 @@
 # busterclub
-ecommerce video club
+ecommerce para un video club, objetivo alquilar peliculas
