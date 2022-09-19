@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import NavBar from './components/NavBar'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
+import ItemListContainer from './components/ItemListContainer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-        
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  <>
+  <NavBar/>
+  <Container>
+    <ItemListContainer greeting={'Bienvenidos a Buster Club'} />
+  </Container>
+  </>
+      
+ 
   );
 }
 
