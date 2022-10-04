@@ -1,0 +1,3 @@
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    background-color: #043cab   !important;
+}
