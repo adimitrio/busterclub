@@ -2,6 +2,7 @@ import { useEffect,useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProducts, getProductsByCategory } from '../utils/products';
 import ItemList from './ItemList';
+import { doc, getFirestore, getDoc, collection, getDocs } from 'firebase/firestore';
 
 const ItemListContainer = ({ greeting }) => {
   const {categoryId} = useParams();
